@@ -1,0 +1,10 @@
+.stopwatch-container{
+    font-family: "Robot";
+    width : 30%;
+    height: auto;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
