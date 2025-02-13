@@ -33,7 +33,7 @@ function StopWatch() {
   return (
     <div className='stopwatch-container'>
       <h1>Stopwatch</h1>
-      <p style={{fontSize:"22px"}}> Time : {formatTime(time)}</p>
+      <p style={{fontSize:"22px"}}> Time: {formatTime(time)}</p>
       <div>
         <button onClick={startStopStopwatch}>
             {running ? 'Stop' : 'Start'}
