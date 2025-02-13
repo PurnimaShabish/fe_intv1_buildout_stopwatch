@@ -13,7 +13,7 @@ function StopWatch() {
         setTime((prevTime) => prevTime + 1);
       }, 1000);
     } else {
-      clearInterval(timerRef.current);
+      clearInterval(timerRef.current);  //done so that the stopwatch doesnt continue running in the background
       setRunning(false);
     }
   };
